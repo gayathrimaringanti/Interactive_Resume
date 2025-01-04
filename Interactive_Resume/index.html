@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Interactive Resume</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./templates/styles.css" />
+</head>
+<body>
+  <div class="main">
+    <div class="left-section">
+      <h1 class="name">Gayathri<br/><strong>Maringanti</strong></h1>
+      <br/>
+
+      <div class="profile">
+        <img src="./templates/gayathri_passport_size.jpg" />
+        <br/><br/><br/><br/>
+        <h2>Objective</h2>
+        <br/>
+        <p class="Objective">Seeking a position as (the job role being offered) that will enhance my skills and offer security while aiding my professional
+          growth and helping me contribute to the organization’s growth.</p>
+        <br/><br />
+      
+        <!-- Updated Buttons with IDs -->
+        <button class="b_h" id="btnEducation">Education</button>
+        <br/><br/>
+        <button class="b_h" id="btnSkills">Skills</button>
+        <br/><br/>
+        <button class="b_h" id="btnCertifications">Certifications</button>
+        <br/><br/>
+        <button class="b_h" id="btnProjects">Projects</button>
+        <br/><br/>
+        <button class="b_h" id="btnContact">Contact</button>
+        <br/><br/><br/>
+
+        <h2>Languages</h2>
+        <br/>
+        <p class="l_p">
+          English
+          <span class="circle1"></span>
+          <span class="circle2"></span>
+          <span class="circle3"></span>
+          <span class="circle4" style="background: transparent;border: 1px solid white;"></span>
+          <span class="circle5" style="background: transparent;border: 1px solid white;"></span>
+        </p>
+        
+        <p class="l_p">
+          Telugu
+          <span class="circle1"></span>
+          <span class="circle2"></span>
+          <span class="circle3"></span>
+          <span class="circle4" ></span>
+          <span class="circle5" ></span>
+        </p>
+        
+        <p class="l_p">
+          Hindi
+          <span class="circle1"></span>
+          <span class="circle2"></span>
+          <span class="circle3"style="background: transparent;border: 1px solid white;" ></span>
+          <span class="circle4" style="background: transparent;border: 1px solid white;"></span>
+          <span class="circle5" style="background: transparent;border: 1px solid white;"></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="right-section">
+      <div class="content" id="education">
+        <h3>Education</h3>
+        <div class="content-inner">
+          <h4>B-TECH</h4>
+          <p class="para">I am Pursuing my B-TECH in Computer Science 
+            IOT(INTERNET OF THINGS) from Swami Vivekananda Institute Of Technology, Secundrabad</p>
+          
+          <h4>INTERMEDIATE</h4>
+          <p class="para">I Completed my Intermediate  
+            from Sri Chaitanya Junior Kalasala,Kukatpally with an aggregate percentage of 97.2 </p>
+          
+          <h4>SSC</h4>
+          <p class="para">I Completed my Schooling  
+            from Sri Chaitanya Techno School, Vivekananda Nagar with the GPA:10 </p>
+        </div>
+      </div>
+
+      <div class="content" id="skills">
+        <h3>Skills</h3>
+        <div class="content-inner">
+          <h4>Technical Skills</h4>
+          <ul>
+            <li>Basics of Python, Java</li>
+            <li>Basics of React JS</li>
+            <li>FrontEnd Development (HTML, CSS, JavaScript)</li>
+            <li>MY SQL</li>
+          </ul>
+          <br/>
+          <h4>Soft Skills</h4>
+          <ul>
+            <li>Hard Working</li>
+            <li>Fast Learner</li>
+            <li>Problem Solving</li>
+            <li>Adaptable</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content" id="certifications">
+        <h3>Certifications</h3>
+        <div class="content-inner">
+         <ul>
+            <li class="certificate" data-tooltip="Learned about advanced AI techniques">AI Advanced Boot Camp></li>
+            <li class="certificate" data-tooltip="Hands-on AI projects during summer">Summer Of AI Internship</li>
+            <li class="certificate" data-tooltip="Basics and advanced Python topics">Python Workshop</li>
+            <li class="certificate" data-tooltip="Recognition for achievements in 2024">Certificate Of Merit from Young Turks 2024</li>
+        </ul>
+        </div>
+      </div>
+
+      <div class="content" id="projects">
+        <h3>Projects</h3>
+        <div class="content-inner">
+          <h4>Voice Chatbot with AI Including Object Detection</h4>
+          <p>I was a part of the voice chatbot with AI projet which gives answers to our questions 
+            in voice form and input is to be given in voice form. It also detects the objects we show and identifies them
+            and tells their name.</p>
+          <br/>
+          <h4>Book Vault</h4>
+          <p>I Developed a web application using Python Flask with CRUD 
+            operations to store and manage book details to refer further.</p>
+          <br/>
+          <h4>M-Power Fit</h4>
+          <p>I was a part of this project which is developed for pregnant women who stay in rural areas 
+            to provide knowledge about the diet to take and exercises to do during all the trimesters in video form.
+          </p>
+          <br/>             
+        </div>
+      </div>
+
+      <div class="content" id="contact">
+        <h3>Contact</h3>
+        <div class="content-inner">
+          <p>Phone Number : 9390715207</p>
+          <p>G-mail : gayathrimaringanti11@gmail.com</p>
+          <a href="https://github.com/gayathrimaringanti/">Github Link</a>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  <script src="./templates/script.js"></script>
+</body>
+</html>
